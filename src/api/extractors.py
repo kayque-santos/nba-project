@@ -11,8 +11,9 @@ from nba_api.stats.endpoints import (
     boxscoreadvancedv3,
     playerawards,
 )
+
 from src.api.client import chamar_com_cache
-from src.api.client import chamar_com_cache
+
 
 
 def extrair_stats_jogadores(temporada: str, tipo_metrica: str = "Base") -> pl.DataFrame:
